@@ -1,0 +1,67 @@
+:root {
+  --fontSizeAllPages: 100px;
+  --mainColorText: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('./images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--mainColorText);
+  font-size: var(--fontSizeAllPages);
+}
+
+.products {
+  background-image: url('./images/img-10.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: var(--mainColorText);
+  font-size: var(--fontSizeAllPages);
+}
+
+.sign-up {
+  background-image: url('./images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--mainColorText);
+  font-size: var(--fontSizeAllPages);
+}
+
+.pageNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--fontSizeAllPages);
+
+  gap: 20px;
+}
+
+.pageNotFound__title {
+  font-size: var(--fontSizeAllPages);
+}
+
+.pageNotFound__tryAgain {
+  font-size: var(--fontSizeAllPages);
+}
